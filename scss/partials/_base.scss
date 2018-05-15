@@ -21,33 +21,6 @@ h3 {
 	font-size: 26px;
 }
 
-// Forms
-#{$all-text-inputs} {
-  border: 1px solid $gray;
-  padding: 10px;
-}
-
-#{$all-text-inputs-focus},
-#{$all-text-inputs-hover},
-#{$all-text-inputs-active} {
-  border: 1px solid $red;
-}
-
-#{$all-buttons} {
-  background-color: $red;
-  border: 1px solid $gray;
-  color: $gray;
-  padding: 10px;
-}
-
-#{$all-buttons-focus},
-#{$all-buttons-hover},
-#{$all-buttons-active} {
-  background-color: $gray;
-  border-color: $red;
-  color: $red;
-}
-
 nav {
 
 	ul {

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
+body {
+  color: #231f20;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.6; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 26px; }
+
+nav ul {
+  list-style: none; }
+
+nav li {
+  display: inline-block; }
+
+nav a {
+  padding: 0 10px; }
+  nav a:hover {
+    color: #b92a16; }
+
+.site-footer {
+  background: #231f20;
+  text-align: center; }
+
+.social-menu a {
+  color: #09acc1; }
+  .social-menu a:before {
+    font-family: FontAwesome;
+    padding-right: 5px; }
+  .social-menu a.twitter:before {
+    content: '\f099'; }
+  .social-menu a.facebook:before {
+    content: '\f09a'; }
+  .social-menu a.linkedin:before {
+    content: '\f0e1'; }
+
+.site-header {
+  background: #231f20;
+  text-align: center; }
+
+.site-title {
+  color: lightgray; }
+
+.header-nav ul {
+  margin: 0;
+  padding: 0; }
+
+.header-nav a {
+  color: lightgray; }

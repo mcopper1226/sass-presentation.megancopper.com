@@ -2,8 +2,12 @@
   "name": "Sass-Intro",
   "version": "0.0.1",
   "description": "Learn Sass!",
-  "devDependencies": {},
-  "scripts": {},
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "scripts": {
+    "start": "node-sass -o css scss"
+  },
   "author": "Megan Copper",
   "license": ""
 }
